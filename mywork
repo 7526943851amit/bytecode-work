@@ -1,9 +1,10 @@
 1. Client-Name: Thom // work store json file into databse using laravel
-Project : evdb
+Task : evdb store the json data and get the jsonid
 2. Client-Name: Scott  // create script add the json product into scott store
-Project : Shopify
+Task: create a script get the json  data and upload the 88000000 products
 3. Client-Name: Jim // send email and save data into dtaabse
 Project : Diet plan
+4. Client-Name: michael // send email and save data into dtaabse
+Task :create a json importer plugin get the jsonfiles data and show the product single page
+Task: login and registerpage,emailsend,exportdata,pdfgenerate jim task
 
-task: login and registerpage,emailsend,exportdata,pdfgenerate jim task
-4. 
