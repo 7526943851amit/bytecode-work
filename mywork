@@ -5,6 +5,15 @@ Task: create a script get the json  data and upload the 88000000 products
 3. Client-Name: Jim // send email and save data into dtaabse
 Project : Diet plan
 4. Client-Name: michael // send email and save data into dtaabse
-Task :create a json importer plugin get the jsonfiles data and show the product single page
+Task :create a json importer plugin get the jsonfiles data and show the product single page acf field
 Task: login and registerpage,emailsend,exportdata,pdfgenerate jim task
+
+5. Client Name: wahid
+Project Name: Tyndale
+I have create the plugin Import CSV for chapter .
+1. Choose a CSV file using the file input.
+2. After selecting the file, click on the "Import CSV for chapter" button.
+3. The plugin will process the CSV file and insert the data into the respective posts.
+Each entry will be assigned to the correct post parent id.
+
 
