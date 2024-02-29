@@ -1,0 +1,36 @@
+<script>
+  // my custom code
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    var filterTitles = document.querySelectorAll('.collection-filters__filter-title');
+    filterTitles.forEach((filterTitle) => {
+      //console.log(filterTitle.innerText);
+      if(filterTitle.innerText == "Popular Ranges")
+      {
+        if(filterTitle.parentNode.parentNode.querySelector('ul.collection-filters__filter').getAttribute('data-accordion-state') == 'open')
+        {
+          filterTitle.parentNode.parentNode.querySelector('ul.collection-filters__filter').removeAttribute('data-accordion-state');
+         filterTitle.parentNode.parentNode.querySelector('ul.collection-filters__filter').setAttribute('data-accordion-state', 'close');
+        }
+
+        filterTitle.closest('.collection-filters__filter-group-heading').classList.remove('productgrid--sidebar-button-active').setAttribute('aria-expanded', 'false');
+      }
+
+        
+
+    });
+  
+});
+
+
+
+
+
+
+
+
+
+  // end mycustom code
+</script>
